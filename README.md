@@ -1,5 +1,6 @@
 # Function-Declaration vs Function-Expression
-###### Clone the JavaScript file to test expression hoisting
+###### A Quick Lesson by Diego Gallardo
+##### Clone the JavaScript file to test expression hoisting
 
 ## Function Declaration: 
 Function funDec( ) { \
@@ -22,7 +23,7 @@ Function funDec( ) { \
   console.log("Hola Mundo") \
  };
  
- #### Function Expression
+ ## Function Expression
  Expressed functions are not hoisted, which means they cannot be used before they are declared. This means the example above is not valid. They must be called after being expressed. For example, the code below is valid:
 
 const funExp = ( ) => { \
